@@ -8,8 +8,9 @@ namespace DangerousTextAdventure
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
+            return 0;
         }
     }
 }
