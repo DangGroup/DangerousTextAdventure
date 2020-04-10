@@ -1,5 +1,6 @@
 ﻿using DangerousTextAdventure.Exceptions;
 using DangerousTextAdventure.Utility;
+using System;
 
 //Root Namespace.
 namespace DangerousTextAdventure
@@ -27,6 +28,10 @@ namespace DangerousTextAdventure
             //Try-Catch-Block to handle forced shutdown.
             try
             {
+
+                Console.Title = "Dangerous Text Adventure";
+                Console.BackgroundColor =  
+
                 //Enter application logic here.
             }
             catch (ForcedShutdownException pException)
