@@ -28,11 +28,19 @@ namespace DangerousTextAdventure
             //Try-Catch-Block to handle forced shutdown.
             try
             {
-
-                Console.Title = "Dangerous Text Adventure";
-                Console.BackgroundColor =  
-
                 //Enter application logic here.
+                
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Title = "Dangerous Text Adventure";
+
+                
+                // Careful! Endless loop!!! For color-testing porpuses <3
+                while(true)
+                {
+                    Console.WriteLine("Sehbehindertenfreundliche Farbe.");
+                }
+
             }
             catch (ForcedShutdownException pException)
             {
